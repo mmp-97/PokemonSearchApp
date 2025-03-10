@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1, h2 {
+    font-family: 'Pokemon', sans-serif;
+    color: #ffcb05;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    color: #ff0000;
+  }
+  
+  /* Main Container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  #sprite-container {
+    margin-top: 30px;
+  }
+  
+  #sprite-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  #sprite-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Pokémon Info Styling */
+  #pokemon-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-transform: capitalize;
+    margin-top: 15px;
+  }
+  
+  #pokemon-id, #weight, #height {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 8px;
+  }
+  
+  #types {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  #types span {
+    background-color: #ffcb05;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #333;
+  }
+  
+  /* Stats Section */
+  #stats {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #stats p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  #stats p span {
+    font-weight: bold;
+    color: #ffcb05;
+  }
+  
+  /* Input and Button Styling */
+  input, button {
+    padding: 12px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffcb05;
+    outline: none;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  button {
+    background-color: #ffcb05;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  /* Focus and Active Styles */
+  input:focus, button:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+  
+  button:active {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  footer a {
+    color: #ffcb05;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ff0000;
+  }  
